@@ -1,0 +1,6 @@
+com.DefaultCompany.NewUnityProject.BuildConfig
+com.DefaultCompany.NewUnityProject.R
+com.DefaultCompany.NewUnityProject.R$id
+com.DefaultCompany.NewUnityProject.R$mipmap
+com.DefaultCompany.NewUnityProject.R$string
+com.DefaultCompany.NewUnityProject.R$style

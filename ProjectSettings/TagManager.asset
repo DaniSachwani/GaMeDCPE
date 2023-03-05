@@ -10,6 +10,25 @@ TagManager:
   - OptionsMenu
   - MusicOption
   - UIManager
+  - Play
+  - StageSelect
+  - SideSelect
+  - chor
+  - Selector
+  - Building1windows
+  - WindowBroken
+  - Black
+  - WindowOpening
+  - WindowClosed
+  - Chor
+  - Police
+  - Building1
+  - ChorReqruits
+  - PoliceReqruits
+  - PlacePlayer
+  - ResetPlayer
+  - RecruitsLeft
+  - PlayerPlacementMenu
   layers:
   - Default
   - TransparentFX
