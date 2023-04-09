@@ -35,6 +35,7 @@ TagManager:
   - Gunshot
   - WinLoseMenu
   - InGameOption
+  - ExitMenu
   layers:
   - Default
   - TransparentFX

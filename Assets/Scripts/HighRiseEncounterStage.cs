@@ -6,7 +6,7 @@ using System;
 using System.Threading.Tasks;
 using System.Threading;
 using TMPro;
-
+using UnityEngine.SceneManagement;
 public class HighRiseEncounterStage : MonoBehaviour, IStage
 {
     // Start is called before the first frame update
@@ -16,6 +16,10 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
     public GameObject[] PoliceReqruits;
     public GameObject Building;
     public GameObject Building2;
+    public GameObject ExitMenu;
+    public GameObject OptionsMenu;
+    public GameObject MusicOption;
+    public GameObject InGameOption;
     int NumberofPlayersToPlace =5;
     bool isPlayerPlacement = true;
     bool isShootout = false;
@@ -75,11 +79,23 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
         PlayerPlayMenu.SetActive(false);
         WinLoseMenu = GameObject.FindGameObjectWithTag("WinLoseMenu");
         WinLoseMenu.SetActive(false);
+        ExitMenu = GameObject.FindGameObjectWithTag("ExitMenu");
+        ExitMenu.SetActive(false);
+
+        
+        MusicOption =GameObject.FindGameObjectWithTag("MusicOption");
+        InGameOption =GameObject.FindGameObjectWithTag("InGameOption");
+        OptionsMenu = GameObject.FindGameObjectWithTag("OptionsMenu");
+        OptionsMenu.SetActive(false);
+        
 
         Gunshot = GameObject.FindGameObjectWithTag("Gunshot").GetComponent<AudioSource>();
         Gunshot.volume = GameSystemManager.InGameVolume;
     }
 
+    public void BackToMainScreen(){
+        SceneManager.LoadScene("MainScreen");
+    }
     // Update is called once per frame
     void Update()
     {
@@ -97,6 +113,16 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
                 CurrentAnimation = AnimationStatus.None;
             }
 
+        }
+        if(CurrentAnimation == AnimationStatus.MoveRight){
+            GameObject.FindGameObjectWithTag("Stage").transform.Translate(-900*Time.deltaTime,0,0);
+            if(GameObject.FindGameObjectWithTag("Stage").transform.localPosition.x <= -450)
+                CurrentAnimation = AnimationStatus.None;
+        }
+        if(CurrentAnimation == AnimationStatus.MoveLeft){        
+            GameObject.FindGameObjectWithTag("Stage").transform.Translate(900*Time.deltaTime,0,0);
+            if(GameObject.FindGameObjectWithTag("Stage").transform.localPosition.x >= 900)
+                CurrentAnimation = AnimationStatus.None;
         }
     }
     GameObject previousSelector = null;
@@ -200,6 +226,8 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
                 }else{
                     WinLoseMenu.transform.Find("Lose").gameObject.SetActive(false);    
                 }
+                
+                Gunshot.Play();
                 return;
             }
         }else if(reference[SelectedY-1][SelectedX-1] == CellStatus.Empty){
@@ -254,12 +282,11 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
     }
 
     void ViewRight(){
-        GameObject.FindGameObjectWithTag("Stage").transform.localPosition = new Vector3(-450.0f,0.0f,0.0f);
+        CurrentAnimation = AnimationStatus.MoveRight;
         PlayerPlayMenu.transform.localPosition = new Vector3(-900.0f,0.0f,0.0f);
-        
     }
     void ViewLeft(){
-        GameObject.FindGameObjectWithTag("Stage").transform.localPosition = new Vector3(450.0f,0.0f,0.0f);
+        CurrentAnimation = AnimationStatus.MoveLeft;
         PlayerPlayMenu.transform.localPosition = new Vector3(0.0f,0.0f,0.0f);
     }
     public void OnPlayerReset(){
@@ -447,4 +474,40 @@ public class HighRiseEncounterStage : MonoBehaviour, IStage
         SelectedX=0; 
         SelectedY=0;
     }
+
+    public void ShowExitMenu(){
+        ExitMenu.SetActive(true);
+    }
+    public void ShowOptionsMenu(){
+        OptionsMenu.SetActive(true);
+        
+        Slider sliderMusic = MusicOption.GetComponent<Slider>();
+        sliderMusic.value = GameSystemManager.AudioSource.volume;
+        Slider sliderInGame = InGameOption.GetComponent<Slider>();
+        sliderInGame.value = GameSystemManager.InGameVolume;
+    }
+    public void ExitMenuYesClicked(){
+        SceneManager.LoadScene("MainScreen");
+    }
+    public void ExitMenuNoClicked(){
+        ExitMenu.SetActive(false);
+    }
+
+    public void OnOptionsBackClicked(){
+        OptionsMenu.SetActive(false);
+        Gunshot.volume = GameSystemManager.InGameVolume;
+        GameSystemManager.SaveData();
+    }
+    
+    
+
+    public void OnMusicVolumeChanged(){
+        Slider slider = MusicOption.GetComponent<Slider>();
+        GameSystemManager.SetMusicVolume(slider.value);
+    }
+    public void OnInGameVolumeChanged(){
+        Slider slider = InGameOption.GetComponent<Slider>();
+        GameSystemManager.SetInGameVolume(slider.value);
+    }
+    
 }

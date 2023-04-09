@@ -63,6 +63,9 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
+    methodName: OnInGameVolumeChanged
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
     methodName: OnMusicVolumeChanged
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
@@ -150,6 +153,9 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
+    methodName: ShowExitMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
@@ -195,7 +201,7 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
-    methodName: OnWindowClicked
+    methodName: BackToMainScreen
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
@@ -213,6 +219,12 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
+    methodName: ExitMenuNoClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
@@ -220,6 +232,9 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnMusicVolumeChanged
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
@@ -390,7 +405,7 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
-    methodName: OnWindowClicked
+    methodName: OnOptionsBackClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
@@ -417,7 +432,22 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
+    methodName: ShowOptionsMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: ExitMenuYesClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
@@ -435,10 +465,7 @@ ScriptsOnlyBuild:
     methodName: OnWindowClicked
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
-    methodName: OnWindowClicked
-  - assembly: Assembly-CSharp
-    fullTypeName: HighRiseEncounterStage
-    methodName: OnWindowClicked
+    methodName: OnInGameVolumeChanged
   - assembly: Assembly-CSharp
     fullTypeName: HighRiseEncounterStage
     methodName: OnWindowClicked
@@ -570,7 +597,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 6894}
+      Script: {instanceID: 6896}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -626,6 +653,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2726}
     - Class: 114
       Script: {instanceID: 3942}
+    - Class: 114
+      Script: {instanceID: 4784}
     - Class: 114
       Script: {instanceID: 4856}
     - Class: 114
@@ -1329,7 +1358,7 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
-      Hash: da41d595321c4bda073717fbe492ee7b
+      Hash: 8b738819f9f4301a2b12bf1d73356102
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UIManager
@@ -1353,7 +1382,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: d2c2997ce703e3c93039e1e0e37347cc
+      Hash: 6b576c8657a496102e9b9b6e04d1aafa
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HighRiseEncounterStage
