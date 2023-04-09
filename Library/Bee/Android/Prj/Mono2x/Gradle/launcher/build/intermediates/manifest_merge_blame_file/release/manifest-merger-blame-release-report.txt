@@ -72,8 +72,8 @@
 41-->[:unityLibrary] C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-44
 42            android:resizeableActivity="false"
 42-->[:unityLibrary] C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-47
-43            android:screenOrientation="fullUser"
-43-->[:unityLibrary] C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-49
+43            android:screenOrientation="landscape"
+43-->[:unityLibrary] C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-50
 44            android:theme="@style/UnityThemeSelector" >
 44-->[:unityLibrary] C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-54
 45            <intent-filter>

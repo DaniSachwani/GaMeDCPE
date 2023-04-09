@@ -29,6 +29,12 @@ TagManager:
   - ResetPlayer
   - RecruitsLeft
   - PlayerPlacementMenu
+  - Building2
+  - Stage
+  - PlayerPlayMenu
+  - Gunshot
+  - WinLoseMenu
+  - InGameOption
   layers:
   - Default
   - TransparentFX

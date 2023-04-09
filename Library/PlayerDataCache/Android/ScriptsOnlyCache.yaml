@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - HighRiseEncounterStage
+    - ScreenShaker
     - StageSelectManager
     - UIManager
     Unity.Rider.Editor.dll:
@@ -93,6 +94,366 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StageSelectManager
     methodName: OnPoliceImageClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerShoot
+  - assembly: Assembly-CSharp
+    fullTypeName: ScreenShaker
+    methodName: ScreenShakeForTime
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerPlaced
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerReset
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerShoot
+  - assembly: Assembly-CSharp
+    fullTypeName: ScreenShaker
+    methodName: ScreenShakeForTime
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerPlaced
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnPlayerReset
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
+  - assembly: Assembly-CSharp
+    fullTypeName: HighRiseEncounterStage
+    methodName: OnWindowClicked
   sceneClasses:
     Assets/Main Screen/MainScreen.unity:
     - Class: 1
@@ -122,33 +483,33 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1538}
     - Class: 114
-      Script: {instanceID: 2126}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 3838}
+      Script: {instanceID: 3842}
     - Class: 114
-      Script: {instanceID: 3938}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 4186}
     - Class: 114
-      Script: {instanceID: 4776}
+      Script: {instanceID: 4784}
     - Class: 114
-      Script: {instanceID: 4848}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 5416}
     - Class: 114
-      Script: {instanceID: 5514}
+      Script: {instanceID: 5526}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 6506}
+      Script: {instanceID: 6520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -193,23 +554,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1538}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 4848}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 5514}
+      Script: {instanceID: 5526}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5830}
     - Class: 114
-      Script: {instanceID: 6506}
+      Script: {instanceID: 6520}
     - Class: 114
-      Script: {instanceID: 6880}
+      Script: {instanceID: 6894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,32 +600,44 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1536}
+      Script: {instanceID: 1538}
     - Class: 114
-      Script: {instanceID: 2530}
+      Script: {instanceID: 2532}
     - Class: 114
-      Script: {instanceID: 2722}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 4848}
+      Script: {instanceID: 3942}
     - Class: 114
-      Script: {instanceID: 5364}
+      Script: {instanceID: 4856}
     - Class: 114
-      Script: {instanceID: 5514}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5526}
     - Class: 114
-      Script: {instanceID: 6506}
+      Script: {instanceID: 5652}
     - Class: 114
-      Script: {instanceID: 34264}
+      Script: {instanceID: 5830}
+    - Class: 114
+      Script: {instanceID: 6520}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -710,6 +1083,12 @@ ScriptsOnlyBuild:
     className: RectMask2D
   - hash:
       serializedVersion: 2
+      Hash: 10cbbbaa4a8c2d19a3c2cc779d28f0d9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenShaker
+  - hash:
+      serializedVersion: 2
       Hash: 87ad3705a58f19c47136728d4a6e9c47
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -972,6 +1351,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: d2c2997ce703e3c93039e1e0e37347cc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HighRiseEncounterStage
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1272,15 +1657,9 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HighRiseEncounterStage
   platform: 13
   scenePathNames:
   - Assets/Main Screen/MainScreen.unity
   - Assets/Main Screen/StageSelect.unity
   - Assets/Stages/HighRiseEncounter/HighRiseEncounter.unity
-  playerPath: C:/MyGameProjects/ChorPoliceEncounter/CPE.apk
+  playerPath: C:/MyGameProjects/CPE.apk

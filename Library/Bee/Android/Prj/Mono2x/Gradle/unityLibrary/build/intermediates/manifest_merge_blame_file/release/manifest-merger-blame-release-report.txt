@@ -47,15 +47,15 @@
 28            android:name="com.unity3d.player.UnityPlayerActivity"
 28-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
 29            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-29-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+29-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:181-362
 30            android:hardwareAccelerated="false"
-30-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+30-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:398-433
 31            android:launchMode="singleTask"
-31-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+31-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:149-180
 32            android:resizeableActivity="false"
-32-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
-33            android:screenOrientation="fullUser"
-33-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+32-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:363-397
+33            android:screenOrientation="landscape"
+33-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-148
 34            android:theme="@style/UnityThemeSelector" >
 34-->C:\MyGameProjects\ChorPoliceEncounter\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
 35            <intent-filter>

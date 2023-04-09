@@ -31,7 +31,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile file('C:/MyGameProjects/ChorPoliceEncounter/user.keystore')
+            storeFile file('C:/MyGameProjects/ChorPoliceEncounter/user1.keystore')
             storePassword 'Still1/cos(c)'
             keyAlias 'cpe'
             keyPassword 'Still1/cos(c)'
